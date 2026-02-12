@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>PetHub - Portal Corporativo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-content">
+    <img src="https://i.ibb.co/nM4jWn5Q/extra-large.png" alt="Logo PetHub" class="logo-img">
+    <h1>Portal Corporativo</h1>
+    <p>Central de Informações, Segurança e Suporte Interno</p>
+  </div>
+</header>
+
+<nav class="nav">
+  <a href="#sobre">Sobre</a>
+  <a href="#politicas">Políticas</a>
+  <a href="#seguranca">Segurança</a>
+  <a href="#infra">Infraestrutura</a>
+  <a href="#indicadores">Indicadores</a>
+  <a href="#faq">FAQ</a>
+  <a href="#suporte">Suporte</a>
+</nav>
+
+<main class="container">
+
+<section id="sobre" class="card reveal">
+  <h2>📌 Sobre o Portal</h2>
+  <p>
+    O PetHub é a plataforma oficial de comunicação interna da empresa.
+    Aqui você encontra políticas, informações técnicas, segurança digital e suporte.
+  </p>
+  <div class="info-box">
+    <strong>Status do Sistema:</strong> Operacional 🟢
+  </div>
+</section>
+
+<section id="politicas" class="card reveal">
+  <h2>📚 Políticas Corporativas</h2>
+  <ul>
+    <li>Uso adequado de equipamentos corporativos</li>
+    <li>Política de senhas e autenticação</li>
+    <li>Diretrizes de segurança da informação</li>
+    <li>Normas de conduta digital</li>
+    <li>Política de backup e armazenamento em nuvem</li>
+  </ul>
+</section>
+
+<section id="seguranca" class="card reveal">
+  <h2>🔐 Segurança da Informação</h2>
+  <p>Boas práticas obrigatórias:</p>
+  <ul>
+    <li>Não compartilhe suas credenciais</li>
+    <li>Ative autenticação em dois fatores</li>
+    <li>Bloqueie o computador ao se ausentar</li>
+    <li>Reporte e-mails suspeitos imediatamente</li>
+  </ul>
+</section>
+
+<section id="infra" class="card reveal">
+  <h2>🖥️ Infraestrutura Tecnológica</h2>
+  <ul>
+    <li>Backups automáticos diários</li>
+    <li>Monitoramento 24h</li>
+    <li>Firewall corporativo ativo</li>
+    <li>Antivírus gerenciado centralmente</li>
+  </ul>
+</section>
+
+<section id="indicadores" class="card reveal">
+  <h2>📊 Indicadores de TI</h2>
+  <div class="stats">
+    <div class="stat">
+      <h3>99.9%</h3>
+      <p>Disponibilidade</p>
+    </div>
+    <div class="stat">
+      <h3>24h</h3>
+      <p>Monitoramento</p>
+    </div>
+    <div class="stat">
+      <h3>+350</h3>
+      <p>Chamados resolvidos</p>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="card reveal">
+  <h2>❓ Perguntas Frequentes</h2>
+
+  <button class="faq-question">Como redefinir minha senha?</button>
+  <div class="faq-answer">
+    Pressione Ctrl + Alt + Delete e selecione "Alterar senha".
+  </div>
+
+  <button class="faq-question">Não consigo acessar a rede</button>
+  <div class="faq-answer">
+    Verifique cabo/Wi-Fi e reinicie o equipamento.
+  </div>
+
+  <button class="faq-question">Posso instalar softwares?</button>
+  <div class="faq-answer">
+    Apenas mediante solicitação e aprovação da equipe de TI.
+  </div>
+</section>
+
+<section id="suporte" class="card reveal destaque">
+  <h2>🎧 Suporte Técnico</h2>
+  <p>
+    Para registrar incidentes, dúvidas ou solicitações,
+    utilize o sistema oficial de chamados.
+  </p>
+  <button id="btnSuporte">Abrir Chamado</button>
+</section>
+
+</main>
+
+<button id="topBtn">↑</button>
+
+<footer class="footer">
+  PetHub © 2026 — Tecnologia da Informação
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
