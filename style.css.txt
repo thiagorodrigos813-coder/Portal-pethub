@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #0f172a, #020617);
+  color: #e5e7eb;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.logo-img {
+  width: 140px;
+  margin-bottom: 15px;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 6px;
+}
+
+.header p {
+  color: #9ca3af;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 780px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* CARD */
+.card {
+  background: #111827;
+  border-radius: 16px;
+  padding: 28px;
+  margin-bottom: 28px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+  position: relative;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+/* TAG */
+.tag {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  background: #1f2937;
+  color: #a5b4fc;
+  font-size: 0.65rem;
+  padding: 5px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.5px;
+}
+
+/* TITULO */
+.card h2 {
+  margin-bottom: 16px;
+  color: #4ade80;
+}
+
+/* LISTA */
+.card ol {
+  padding-left: 20px;
+  line-height: 1.7;
+  color: #d1d5db;
+}
+
+/* SUPORTE */
+.suporte {
+  border-left: 5px solid #4ade80;
+}
+
+.suporte p {
+  margin-bottom: 15px;
+}
+
+/* BOTÃO */
+button {
+  padding: 12px 22px;
+  background: #4ade80;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 25px;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}

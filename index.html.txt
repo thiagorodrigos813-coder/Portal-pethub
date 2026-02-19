@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>PetHub - Central de Ajuda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <img src="https://i.ibb.co/nM4jWn5Q/extra-large.png" alt="Logo PetHub" class="logo-img">
+  <h1>Central de Ajuda</h1>
+  <p>Guias rápidos para resolver problemas do dia a dia</p>
+</header>
+
+<main class="container">
+
+<section class="card">
+  <span class="tag">ACESSO</span>
+  <h2>🔑 Trocar senha do computador</h2>
+  <ol>
+    <li>Pressione <strong>Ctrl + Alt + Delete</strong></li>
+    <li>Clique em <strong>Alterar uma senha</strong></li>
+    <li>Digite a senha atual</li>
+    <li>Crie uma nova senha</li>
+    <li>Confirme para finalizar</li>
+  </ol>
+</section>
+
+<section class="card">
+  <span class="tag">REDE</span>
+  <h2>🌐 Internet não funciona</h2>
+  <ol>
+    <li>Verifique o Wi-Fi ou cabo de rede</li>
+    <li>Reinicie o computador</li>
+    <li>Tente acessar outro site</li>
+    <li>Persistindo, abra um chamado</li>
+  </ol>
+</section>
+
+<section class="card">
+  <span class="tag">IMPRESSÃO</span>
+  <h2>🖨️ Impressora não imprime</h2>
+  <ol>
+    <li>Confira se está na rede corporativa</li>
+    <li>Verifique papel e toner</li>
+    <li>Reinicie a impressora</li>
+    <li>Tente imprimir novamente</li>
+  </ol>
+</section>
+
+<section class="card">
+  <span class="tag">E-MAIL</span>
+  <h2>📧 E-mail não abre</h2>
+  <ol>
+    <li>Confira a conexão com a internet</li>
+    <li>Atualize a página</li>
+    <li>Tente outro navegador</li>
+    <li>Reinicie o computador</li>
+  </ol>
+</section>
+
+<section class="card">
+  <span class="tag">ARQUIVOS</span>
+  <h2>💾 Arquivos sumiram</h2>
+  <ol>
+    <li>Verifique a lixeira</li>
+    <li>Pesquise pelo nome do arquivo</li>
+    <li>Confira a pasta correta</li>
+    <li>Abra um chamado se não encontrar</li>
+  </ol>
+</section>
+
+<section class="card suporte">
+  <h2>🎧 Precisa de ajuda da TI?</h2>
+  <p>Se o problema não foi resolvido com os passos acima:</p>
+  <button id="btnSuporte">Abrir chamado</button>
+</section>
+
+</main>
+
+<footer class="footer">
+  PetHub © 2026 — Suporte de TI
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
